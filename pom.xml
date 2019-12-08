@@ -10,6 +10,7 @@
         <module>batch</module>
         <module>mq</module>
         <module>data</module>
+        <module>email</module>
     </modules>
 
     <parent>

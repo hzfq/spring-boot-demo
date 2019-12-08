@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8"></meta>
+	<title>湖之风情</title>
+	<style>
+		body {
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#main {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<div id="main">
+	<h3>
+		Welcome to <span th:text="${project}"></span>
+		<small> -By <span th:text="${author}"></span></small>
+	</h3>
+	Your Verification Code is <strong th:text="${code}"></strong>
+</div>
+</body>
+</html>
