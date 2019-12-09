@@ -15,6 +15,7 @@
     <modules>
         <module>security-simple</module>
         <module>security-jpa</module>
+        <module>security-mybatis</module>
     </modules>
 
 </project>
